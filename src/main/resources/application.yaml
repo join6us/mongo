@@ -1,0 +1,21 @@
+
+spring:
+  http:
+    encoding:
+      charset:    UTF-8
+  output:
+    ansi:
+      enabled: always
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: admin
+      username: user1
+      password: 1111
+  mvc:
+    view:
+      prefix:     /jsp/
+      suffix:     .jsp
+server:
+  tomcat:
+    uri-encoding: UTF-8
